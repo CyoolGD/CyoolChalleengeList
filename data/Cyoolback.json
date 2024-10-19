@@ -7,5 +7,18 @@
     "verification": "https://www.youtube.com/watch?v=Fz0PXIr5FmA",
     "percentToQualify": "100",
     "password": "Free to Copy",
-    "records":
+    "records": [
+        {
+            "user": "Sample_Victor_1",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Sample_Victor_2",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
 }
