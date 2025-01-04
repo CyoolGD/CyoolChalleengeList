@@ -1,1 +1,24 @@
-
+{
+    "id": 105486579,
+    "name": "Cyool 1k Challenge",
+    "author": "Cyool",
+    "creators": ["Orcipoise"],
+    "verifier": "Cyool",
+    "verification": "https://www.youtube.com/watch?v=mJqr1QjmqYY",
+    "percentToQualify": "100",
+    "password": "Free to Copy",
+    "records": [
+        {
+            "user": "Sample_Victor_1",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Sample_Victor_2",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
