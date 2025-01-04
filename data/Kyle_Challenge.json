@@ -1,0 +1,24 @@
+{
+    "id": 105555715,
+    "name": "Kyle Challenge",
+    "author": "Finrex",
+    "creators": ["Finrex"],
+    "verifier": "Finrex",
+    "verification": "https://www.youtube.com/watch?v=mU9BQZiSajg",
+    "percentToQualify": "100",
+    "password": "Free to Copy",
+    "records": [
+        {
+            "user": "Sample_Victor_1",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Sample_Victor_2",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
