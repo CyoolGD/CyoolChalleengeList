@@ -9,16 +9,14 @@
     "password": "Free to Copy",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
-            "hz": 360
+            "user": "Sir. Hammi",
+            "link": "https://www.youtube.com/watch?v=0qrG7hvVkLU",
+            "percent": 100
         },
         {
             "user": "Sample_Victor_2",
             "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
-            "hz": 120
+            "percent": 100
         }
     ]
 }
