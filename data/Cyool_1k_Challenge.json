@@ -12,11 +12,13 @@
             "user": "Sir. Hammi",
             "link": "https://www.youtube.com/watch?v=0qrG7hvVkLU",
             "percent": 100
+             "hz": 360
         },
         {
             "user": "Sample_Victor_2",
             "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
             "percent": 100
+             "hz": 360
         }
     ]
 }
