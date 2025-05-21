@@ -19,14 +19,14 @@ export default {
         </main>
         <main v-else class="page-leaderboard-container">
             <div class="page-leaderboard">
-                <div class="error-container">
-                    <p class="error" v-if="err.length > 0">
+                <div class="error-container" v-if="err.length > 0">
+                    <p class="error">
                         Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
                     </p>
                 </div>
                 <div class="board-container">
                     <table class="board">
-                        <tr v-for="(ientry, i) in leaderboard">
+                        <tr v-for="(ientry, i) in leaderboard" :key="i">
                             <td class="rank">
                                 <p class="type-label-lg">#{{ i + 1 }}</p>
                             </td>
@@ -41,52 +41,52 @@ export default {
                         </tr>
                     </table>
                 </div>
-                <div class="player-container">
+
+                <div class="player-container" v-if="entry">
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
-                        <h3>{{ entry.total }}</h3>
-                        <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>
-                        <table class="table">
-                            <tr v-for="score in entry.verified">
-                                <td class="rank">
-                                    <p>#{{ score.rank }}</p>
-                                </td>
-                                <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
-                                </td>
-                                <td class="score">
-                                    <p>+{{ localize(score.score) }}</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <h2 v-if="entry.completed.length > 0">Completed ({{ entry.completed.length }})</h2>
-                        <table class="table">
-                            <tr v-for="score in entry.completed">
-                                <td class="rank">
-                                    <p>#{{ score.rank }}</p>
-                                </td>
-                                <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
-                                </td>
-                                <td class="score">
-                                    <p>+{{ localize(score.score) }}</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <h2 v-if="entry.progressed.length > 0">Progressed ({{entry.progressed.length}})</h2>
-                        <table class="table">
-                            <tr v-for="score in entry.progressed">
-                                <td class="rank">
-                                    <p>#{{ score.rank }}</p>
-                                </td>
-                                <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.percent }}% {{ score.level }}</a>
-                                </td>
-                                <td class="score">
-                                    <p>+{{ localize(score.score) }}</p>
-                                </td>
-                            </tr>
-                        </table>
+                        <h3>{{ localize(entry.total) }}</h3>
+
+                        <template v-if="entry.verified.length > 0">
+                            <h2>Verified ({{ entry.verified.length }})</h2>
+                            <table class="table">
+                                <tr v-for="(score, index) in entry.verified" :key="'verified-' + index">
+                                    <td class="rank"><p>#{{ score.rank }}</p></td>
+                                    <td class="level">
+                                        <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                    </td>
+                                    <td class="score"><p>+{{ localize(score.score) }}</p></td>
+                                </tr>
+                            </table>
+                        </template>
+
+                        <template v-if="entry.completed.length > 0">
+                            <h2>Completed ({{ entry.completed.length }})</h2>
+                            <table class="table">
+                                <tr v-for="(score, index) in entry.completed" :key="'completed-' + index">
+                                    <td class="rank"><p>#{{ score.rank }}</p></td>
+                                    <td class="level">
+                                        <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                    </td>
+                                    <td class="score"><p>+{{ localize(score.score) }}</p></td>
+                                </tr>
+                            </table>
+                        </template>
+
+                        <template v-if="entry.progressed.length > 0">
+                            <h2>Progressed ({{ entry.progressed.length }})</h2>
+                            <table class="table">
+                                <tr v-for="(score, index) in entry.progressed" :key="'progressed-' + index">
+                                    <td class="rank"><p>#{{ score.rank }}</p></td>
+                                    <td class="level">
+                                        <a class="type-label-lg" target="_blank" :href="score.link">
+                                            {{ score.percent }}% {{ score.level }}
+                                        </a>
+                                    </td>
+                                    <td class="score"><p>+{{ localize(score.score) }}</p></td>
+                                </tr>
+                            </table>
+                        </template>
                     </div>
                 </div>
             </div>
@@ -94,15 +94,20 @@ export default {
     `,
     computed: {
         entry() {
-            return this.leaderboard[this.selected];
+            return this.leaderboard[this.selected] || null;
         },
     },
     async mounted() {
-        const [leaderboard, err] = await fetchLeaderboard();
-        this.leaderboard = leaderboard;
-        this.err = err;
-        // Hide loading spinner
-        this.loading = true;
+        try {
+            const [leaderboard, err] = await fetchLeaderboard();
+            this.leaderboard = leaderboard || [];
+            this.err = err || [];
+        } catch (error) {
+            console.error('Failed to fetch leaderboard:', error);
+            this.err = ['An unexpected error occurred while fetching leaderboard data.'];
+        } finally {
+            this.loading = false;
+        }
     },
     methods: {
         localize,
