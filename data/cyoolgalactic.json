@@ -1,0 +1,24 @@
+{
+    "id": 118998441,
+    "name": "VeswsPC",
+    "author": "VeswsPC",
+    "creators": ["VeswsPC"],
+    "verifier": "VeswsPC",
+    "verification": "https://www.youtube.com/watch?v=OYPh-GPivno",
+    "percentToQualify": "100",
+    "password": "1.1",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://www.youtube.com/watch?v=7Y1G4sLww-E",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "N/A",
+            "link": "https://www.youtube.com/watch?v=7Y1G4sLww-E",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
