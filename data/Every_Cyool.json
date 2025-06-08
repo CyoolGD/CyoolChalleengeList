@@ -1,1 +1,24 @@
-119883340
+{
+    "id": 119883340,
+    "name": "Zeanaye",
+    "author": "Zeanaye",
+    "creators": ["Zeanaye"],
+    "verifier": "Twisted",
+    "verification": "https://youtu.be/6I5vkXhKRvI",
+    "percentToQualify": "100",
+    "password": "1.1",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://www.youtube.com/watch?v=7Y1G4sLww-E",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "N/A",
+            "link": "https://www.youtube.com/watch?v=7Y1G4sLww-E",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
