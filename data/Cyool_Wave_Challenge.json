@@ -9,16 +9,28 @@
     "password": "1.0",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "Finrex",
+            "link": "https://www.youtube.com/watch?v=HdNsVVoimLo",
             "percent": 100,
-            "hz": 360
+            "hz": 0
         },
         {
-            "user": "Sample_Victor_2",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "Cyool",
+            "link": "https://medal.tv/games/undefined/clips/ksby1mmgu-dZt2b1e?invite=cr-MSwzQ2EsMzA3MDg1NTQ2",
             "percent": 100,
-            "hz": 120
+            "hz": 0
+        },
+        {
+            "user": "Twisted",
+            "link": "https://www.youtube.com/live/3zSN_pWZrrk",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "AustinMiller",
+            "link": "https://www.youtube.com/watch?v=74GPEXKpG5Y",
+            "percent": 100,
+            "hz": 0
         }
     ]
 }
