@@ -1,1 +1,24 @@
-
+{
+    "id": 120603294,
+    "name": "5 second germcyool",
+    "author": "GramounUS",
+    "creators": ["GramounUS"],
+    "verifier": "GramounUS",
+    "verification": "https://youtu.be/sMyxSrxAkls",
+    "percentToQualify": "100",
+    "password": "1.1",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://www.youtube.com/watch?v=7Y1G4sLww-E",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "N/A",
+            "link": "https://www.youtube.com/watch?v=7Y1G4sLww-E",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
