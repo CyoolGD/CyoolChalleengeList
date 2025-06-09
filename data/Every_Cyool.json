@@ -11,14 +11,14 @@
         {
             "user": "N/A",
             "link": "https://www.youtube.com/watch?v=7Y1G4sLww-E",
-            "percent": 100,
-            "hz": 360
+            "percent": 1,
+            "hz": 0
         },
         {
             "user": "N/A",
             "link": "https://www.youtube.com/watch?v=7Y1G4sLww-E",
-            "percent": 100,
-            "hz": 120
+            "percent": 1,
+            "hz": 0
         }
     ]
 }
