@@ -12,13 +12,13 @@
             "user": "Twisted",
             "link": "https://www.youtube.com/live/3zSN_pWZrrk",
             "percent": 100,
-            "hz": 
+            "hz": 0
         },
         {
             "user": "Sample_Victor_2",
             "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
             "percent": 100,
-            "hz": 120
+            "hz": 0
         }
     ]
 }
