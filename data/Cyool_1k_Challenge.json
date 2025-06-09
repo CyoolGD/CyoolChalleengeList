@@ -9,16 +9,16 @@
     "password": "1.0",
     "records": [ 
         {
-            "user": "me",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "Twisted",
+            "link": "https://www.youtube.com/live/3zSN_pWZrrk",
             "percent": 100,
-            "hz": 360
+            "hz": 0
         },
         {
-            "user": "me",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "AustinMiller",
+            "link": "https://www.youtube.com/watch?v=74GPEXKpG5Y",
             "percent": 100,
-            "hz": 120
+            "hz": 0
         }
     ]
 }
