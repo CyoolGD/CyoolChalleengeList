@@ -9,16 +9,16 @@
     "password": "1.0",
     "records": [
         {
-            "user": "me",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "AustinMiller",
+            "link": "https://www.youtube.com/watch?v=UWYzavIjk8o",
             "percent": 100,
-            "hz": 360
+            "hz": 0
         },
         {
-            "user": "me",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "N/A",
+            "link": "https://www.youtube.com/channel/UC2HVh2F_QsbM3zN3365rDZg",
             "percent": 100,
-            "hz": 120
+            "hz": 0
         }
     ]
 }
