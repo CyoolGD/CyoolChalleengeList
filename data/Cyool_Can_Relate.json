@@ -15,9 +15,15 @@
             "hz": 0
         },
         {
-            "user": "N/A",
-            "link": "https://www.youtube.com/channel/UC2HVh2F_QsbM3zN3365rDZg",
-            "percent": 1,
+            "user": "AustinMiller",
+            "link": "https://www.youtube.com/watch?v=74GPEXKpG5Y",
+            "percent": 100,
+            "hz": 0
+        }
+        {
+            "user": "Twisted",
+            "link": "https://www.youtube.com/live/3zSN_pWZrrk",
+            "percent": 100,
             "hz": 0
         }
     ]
