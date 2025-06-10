@@ -1,1 +1,18 @@
-
+{
+    "id": 114186093,
+    "name": "cysharp",
+    "author": "Arfttt",
+    "creators": ["Arfttt"],
+    "verifier": "Arfttt",
+    "verification": "https://www.youtube.com/watch?v=oZ1_yJRE5JY",
+    "percentToQualify": "100",
+    "password": "1.1",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://medal.tv/games/geometry-dash/clips/ksbq98iEJxRP-r-ro?invite=cr-MSxla0ksMzA3MDg1NTQ2",
+            "percent": 1,
+            "hz": 0
+        }
+    ]
+}
