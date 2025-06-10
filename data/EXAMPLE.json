@@ -1,0 +1,24 @@
+{
+    "id": EXAMPLE,
+    "name": "EXAMPLE",
+    "author": "EXAMPLE",
+    "creators": ["EXAMPLE"],
+    "verifier": "EXAMPLE",
+    "verification": "https://youtube/example",
+    "percentToQualify": "100",
+    "password": "1.1",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 1,
+            "hz": 0
+        },
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 1,
+            "hz": 0
+        }
+    ]
+}
