@@ -9,9 +9,15 @@
     "password": "1.1",
     "records": [
         {
-            "user": "N/A",
-            "link": "https://medal.tv/games/geometry-dash/clips/ksbq98iEJxRP-r-ro?invite=cr-MSxla0ksMzA3MDg1NTQ2",
-            "percent": 1,
+            "user": "AustinMiller",
+            "link": "https://www.youtube.com/watch?v=2tEQS4fSSXA",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Twisted",
+            "link": "https://www.youtube.com/live/_6M9u7Yn4x4",
+            "percent": 100,
             "hz": 0
         }
     ]
