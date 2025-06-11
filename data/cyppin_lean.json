@@ -1,1 +1,24 @@
-
+{
+    "id": 118877228,
+    "name": "cyppin lean",
+    "author": "Arfttt",
+    "creators": ["Arfttt"],
+    "verifier": "Twisted",
+    "verification": "https://youtu.be/v5Z14ktq1Iw",
+    "percentToQualify": "100",
+    "password": "1.1",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 1,
+            "hz": 0
+        },
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 1,
+            "hz": 0
+        }
+    ]
+}
