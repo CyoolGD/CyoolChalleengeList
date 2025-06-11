@@ -1,10 +1,10 @@
 {
-    "id": EXAMPLE,
-    "name": "cyoolamael",
-    "author": "EXAMPLE",
-    "creators": ["EXAMPLE"],
-    "verifier": "EXAMPLE",
-    "verification": "https://youtube/example",
+    "id": 120653283,
+    "name": "Cyoolamal",
+    "author": "Finrex",
+    "creators": ["Finrex"],
+    "verifier": "Finrex",
+    "verification": "https://youtu.be/SYquQgHrUvs",
     "percentToQualify": "100",
     "password": "1.1",
     "records": [
