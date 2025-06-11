@@ -1,0 +1,24 @@
+{
+    "id": 120667573,
+    "name": "Cyooldynamix",
+    "author": "AustinMiller",
+    "creators": ["AustinMiller"],
+    "verifier": "AustinMiller",
+    "verification": "https://www.youtube.com/watch?v=zcuI24zwXng",
+    "percentToQualify": "100",
+    "password": "1.1",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 1,
+            "hz": 0
+        },
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 1,
+            "hz": 0
+        }
+    ]
+}
