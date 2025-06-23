@@ -1,1 +1,24 @@
-
+{
+    "id": 119433937,
+    "name": "sommercyool",
+    "author": "Arfttt",
+    "creators": ["Arfttt"],
+    "verifier": "Twisted",
+    "verification": "https://youtu.be/v5Z14ktq1Iw?si=NcgaalBXclTSY_OV&t=25",
+    "percentToQualify": "100",
+    "password": "1.1",
+    "records": [
+        {
+            "user": "Finrex",
+            "link": "https://medal.tv/games/geometry-dash/clips/kxYXfEXwNkt4UO3aR?invite=cr-MSxrdEssMzMxOTYwNjA1",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 1,
+            "hz": 0
+        }
+    ]
+}
