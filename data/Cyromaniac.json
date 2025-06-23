@@ -1,1 +1,24 @@
-
+{
+    "id": 121552407,
+    "name": "Cyromaniac",
+    "author": "Finrex",
+    "creators": ["Finrex"],
+    "verifier": "Twisted",
+    "verification": "https://youtube.com/clip/Ugkxcq-C57lP6CdxBeklm7-fJhpVUQxJUm3R?si=r5XhIlzWRe2bN6xv",
+    "percentToQualify": "100",
+    "password": "1.1",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 1,
+            "hz": 0
+        },
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 1,
+            "hz": 0
+        }
+    ]
+}
