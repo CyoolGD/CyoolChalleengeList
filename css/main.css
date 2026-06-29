@@ -84,15 +84,12 @@ main > div {
     overflow-y: auto;
 }
 
-/* ===== Scrollbar Styling (Dark Mode) ===== */
-
-/* Chrome / Edge / Safari */
 main > div::-webkit-scrollbar {
     width: 10px;
 }
 
 main > div::-webkit-scrollbar-track {
-    background: var(--color-background); /* matches #1c1b1f */
+    background: #2c2c2c;
 }
 
 main > div::-webkit-scrollbar-thumb {
@@ -105,7 +102,6 @@ main > div::-webkit-scrollbar-thumb:hover {
     background: #3a3942;
 }
 
-/* Firefox */
 main > div {
     scrollbar-width: thin;
     scrollbar-color: #2a2930 var(--color-background);
