@@ -6,13 +6,13 @@
     "verifier": "Sizzle214",
     "verification": "https://youtu.be/t6_G5RVjpo4",
     "percentToQualify": "100",
-    "password": "1.1",
+    "password": "1.2",
     "records": [
         {
             "user": "Twisted",
             "link": "https://medal.tv/games/geometry-dash/clips/n0E3UvlHOwxgJz9kM?invite=cr-MSx6bXMsNDcyMjQzNjk4",
             "percent": 100,
-            "hz": 240
+            "hz": 0
         },
         {
             "user": "Zeanaye",
