@@ -79,9 +79,10 @@ main {
     column-gap: 2rem;
 }
 
-/* scroll container */
 main > div {
     overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #2a2930 #2c2c2c;
 }
 
 main > div::-webkit-scrollbar {
@@ -95,18 +96,12 @@ main > div::-webkit-scrollbar-track {
 main > div::-webkit-scrollbar-thumb {
     background: #2a2930;
     border-radius: 8px;
-    border: 2px solid var(--color-background);
+    border: 2px solid #2c2c2c;
 }
 
 main > div::-webkit-scrollbar-thumb:hover {
     background: #3a3942;
 }
-
-main > div {
-    scrollbar-width: thin;
-    scrollbar-color: #2a2930 var(--color-background);
-}
-
 .spinner {
     display: flex;
     align-items: center;
