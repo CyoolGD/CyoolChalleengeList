@@ -1,1 +1,24 @@
-
+{
+    "id": 143754994,
+    "name": "VSCyool",
+    "author": "Sizzle214",
+    "creators": ["Sizzle214"],
+    "verifier": "Sizzle214",
+    "verification": "https://youtu.be/Cc_mtoULwMk",
+    "percentToQualify": "100",
+    "password": "1.1",
+    "records": [
+        {
+            "user": "Twisted",
+            "link": "https://medal.tv/games/geometry-dash/clips/n0JAMO56Xer1P2HTG?invite=cr-MSw2emgsNDcyMjQzNjk4",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "AustinMiller",
+            "link": "https://www.youtube.com/watch?v=N2ucwYiEiOs",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
