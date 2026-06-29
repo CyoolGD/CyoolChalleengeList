@@ -1,0 +1,24 @@
+{
+    "id": 143757107,
+    "name": "Cyool Wave",
+    "author": "chalupaaa",
+    "creators": ["chalupaaa"],
+    "verifier": "chalupaaa",
+    "verification": "https://www.youtube.com/watch?v=whPNp63evUc",
+    "percentToQualify": "100",
+    "password": "1.2",
+    "records": [
+        {
+            "user": "Twisted",
+            "link": "https://medal.tv/games/geometry-dash/clips/n0YJ5RJou4V47Cboc?invite=cr-MSxhcGYsNDcyMjQzNjk4",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "N/A",
+            "link": "https://www.youtube.com/@cyool",
+            "percent": 1,
+            "hz": 0
+        }
+    ]
+}
