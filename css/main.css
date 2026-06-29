@@ -27,6 +27,7 @@ header.dark {
 html,
 body {
     height: 100%;
+    background: #1c1b1f;
 }
 
 body {
@@ -82,31 +83,26 @@ main {
 main > div {
     overflow-y: auto;
 
-    /* Firefox scrollbar */
     scrollbar-width: thin;
-    scrollbar-color: #2a2930 var(--color-background);
+    scrollbar-color: #9f9f9f #2c2c2c;
 }
 
-/* WebKit scrollbar */
 main > div::-webkit-scrollbar {
     width: 10px;
 }
 
-/* Track (normal scroll area background) */
 main > div::-webkit-scrollbar-track {
-    background: var(--color-background);
-    box-shadow: inset 0 0 0 9999px #2c2c2c;
+    background: #2c2c2c;
 }
 
-/* Thumb */
 main > div::-webkit-scrollbar-thumb {
-    background: #2a2930;
+    background: #9f9f9f;
     border-radius: 8px;
-    border: 2px solid var(--color-background);
+    border: 2px solid #2c2c2c;
 }
 
 main > div::-webkit-scrollbar-thumb:hover {
-    background: #3a3942;
+    background: #d1d1d1;
 }
 
 .spinner {
