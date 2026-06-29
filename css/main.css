@@ -83,10 +83,17 @@ main {
 main > div {
     overflow-y: auto;
 
-    scrollbar-width: thin;
+    /* Firefox */
+    scrollbar-width: auto;
     scrollbar-color: #9f9f9f #2c2c2c;
 }
 
+/* Firefox hover fix */
+main > div:hover {
+    scrollbar-color: #d1d1d1 #2c2c2c;
+}
+
+/* Chrome / Edge / Safari */
 main > div::-webkit-scrollbar {
     width: 10px;
 }
@@ -101,6 +108,7 @@ main > div::-webkit-scrollbar-thumb {
     border: 2px solid #2c2c2c;
 }
 
+/* Hover works properly now */
 main > div::-webkit-scrollbar-thumb:hover {
     background: #d1d1d1;
 }
