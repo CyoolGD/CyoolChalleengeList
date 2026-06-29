@@ -11,17 +11,27 @@
     },
     {
         "role": "helper",
-        "name": "Cyool",
-        "link": "https://www.youtube.com/@cyool"
+        "name": "Twisted",
+        "link": "https://www.youtube.com/@Twisted2721"
+    },
+    {
+        "role": "helper",
+        "name": "Zeanaye",
+        "link": "https://www.youtube.com/@Zeanaye"
+    },
+    {
+        "role": "helper",
+        "name": "AustinMiller",
+        "link": "https://www.youtube.com/channel/UCk1iTc4MzNH19gia3eUQ7vA"
     },
     {
         "role": "trial",
-        "name": "Cyool",
-        "link": "https://www.youtube.com/@cyool"
+        "name": "None",
+        "link": ""
     },
     {
         "role": "dev",
-        "name": "Cyool",
-        "link": "https://www.youtube.com/@cyool"
+        "name": "None",
+        "link": ""
     }
 ]
