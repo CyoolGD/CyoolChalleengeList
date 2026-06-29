@@ -4,14 +4,14 @@
     "author": "Finrex",
     "creators": ["Finrex"],
     "verifier": "Twisted",
-    "verification": "https://youtube.com/clip/Ugkxcq-C57lP6CdxBeklm7-fJhpVUQxJUm3R?si=r5XhIlzWRe2bN6xv",
+    "verification": "https://www.youtube.com/live/7OJ_oyRPlD4?t=3091s",
     "percentToQualify": "100",
     "password": "1.1",
     "records": [
         {
-            "user": "N/A",
-            "link": "https://youtube/example",
-            "percent": 1,
+            "user": "AustinMiller",
+            "link": "https://youtu.be/QX7l3hATjfw",
+            "percent": 100,
             "hz": 0
         },
         {
