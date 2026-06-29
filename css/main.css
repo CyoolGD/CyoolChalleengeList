@@ -82,13 +82,6 @@ main {
 
 main > div {
     overflow-y: auto;
-
-    scrollbar-width: auto;
-    scrollbar-color: #9f9f9f #2c2c2c;
-}
-
-main > div:hover {
-    scrollbar-color: #d1d1d1 #2c2c2c;
 }
 
 main > div::-webkit-scrollbar {
