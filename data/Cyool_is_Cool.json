@@ -1,0 +1,24 @@
+{
+    "id": 132235787,
+    "name": "Cyool is Cool",
+    "author": "Orangejuicepls",
+    "creators": ["Orangejuicepls"],
+    "verifier": "Orangejuicepls",
+    "verification": "https://www.youtube.com/watch?v=pi9_po9dR5s",
+    "percentToQualify": "100",
+    "password": "1.2",
+    "records": [
+        {
+            "user": "Zeanaye",
+            "link": "https://www.youtube.com/watch?v=aUuwOF-rx-o",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Twisted",
+            "link": "https://medal.tv/games/geometry-dash/clips/n0HDqrb85S5goxZRG?invite=cr-MSxkaTIsNDcyMjQzNjk4",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
