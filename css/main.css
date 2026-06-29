@@ -40,10 +40,7 @@ main {
     background-color: var(--color-background);
     color: var(--color-on-background);
     display: grid;
-    grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(
-            16em,
-            1fr
-        );
+    grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(16em, 1fr);
     column-gap: 2rem;
 }
 
@@ -54,12 +51,14 @@ header {
     background-color: var(--color-primary);
     color: var(--color-on-primary);
 }
+
 @media screen and (min-width: 1366px) {
     header {
         display: grid;
         padding-inline: 0;
     }
 }
+
 header .logo {
     justify-self: end;
     align-self: center;
@@ -67,6 +66,7 @@ header .logo {
     align-items: flex-end;
     gap: 1rem;
 }
+
 header .nav {
     flex: 1;
 }
@@ -78,8 +78,37 @@ main {
     grid-template-rows: minmax(0, 1fr);
     column-gap: 2rem;
 }
+
+/* scroll container */
 main > div {
     overflow-y: auto;
+}
+
+/* ===== Scrollbar Styling (Dark Mode) ===== */
+
+/* Chrome / Edge / Safari */
+main > div::-webkit-scrollbar {
+    width: 10px;
+}
+
+main > div::-webkit-scrollbar-track {
+    background: var(--color-background); /* matches #1c1b1f */
+}
+
+main > div::-webkit-scrollbar-thumb {
+    background: #2a2930;
+    border-radius: 8px;
+    border: 2px solid var(--color-background);
+}
+
+main > div::-webkit-scrollbar-thumb:hover {
+    background: #3a3942;
+}
+
+/* Firefox */
+main > div {
+    scrollbar-width: thin;
+    scrollbar-color: #2a2930 var(--color-background);
 }
 
 .spinner {
