@@ -84,22 +84,43 @@ main > div {
     overflow-y: auto;
 }
 
+/* Chrome / Edge / Safari */
 main > div::-webkit-scrollbar {
-    width: 10px;
+    width: 14px; /* thicker, closer to default feel */
 }
 
+/* Track */
 main > div::-webkit-scrollbar-track {
     background: #2c2c2c;
 }
 
+/* Thumb */
 main > div::-webkit-scrollbar-thumb {
     background: #9f9f9f;
     border-radius: 8px;
-    border: 2px solid #2c2c2c;
+    border: 3px solid #2c2c2c;
 }
 
+/* Hover only on thumb */
 main > div::-webkit-scrollbar-thumb:hover {
     background: #d1d1d1;
+}
+
+/* Scrollbar buttons (arrows) */
+main > div::-webkit-scrollbar-button {
+    height: 14px;
+    background: #2c2c2c;
+    display: block;
+}
+
+/* Up arrow */
+main > div::-webkit-scrollbar-button:vertical:decrement {
+    background: #2c2c2c;
+}
+
+/* Down arrow */
+main > div::-webkit-scrollbar-button:vertical:increment {
+    background: #2c2c2c;
 }
 
 .spinner {
