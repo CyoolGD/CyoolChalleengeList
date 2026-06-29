@@ -5,11 +5,6 @@
         "link": "https://www.youtube.com/@cyool"
     },
     {
-        "role": "admin",
-        "name": "Cyool",
-        "link": "https://www.youtube.com/@cyool"
-    },
-    {
         "role": "helper",
         "name": "Twisted",
         "link": "https://www.youtube.com/@Twisted2721"
@@ -23,15 +18,5 @@
         "role": "helper",
         "name": "AustinMiller",
         "link": "https://www.youtube.com/channel/UCk1iTc4MzNH19gia3eUQ7vA"
-    },
-    {
-        "role": "trial",
-        "name": "None",
-        "link": ""
-    },
-    {
-        "role": "dev",
-        "name": "None",
-        "link": ""
     }
 ]
