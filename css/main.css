@@ -81,27 +81,34 @@ main {
 
 main > div {
     overflow-y: auto;
+
+    /* Firefox scrollbar */
     scrollbar-width: thin;
-    scrollbar-color: #2a2930 #2c2c2c;
+    scrollbar-color: #2a2930 var(--color-background);
 }
 
+/* WebKit scrollbar */
 main > div::-webkit-scrollbar {
     width: 10px;
 }
 
+/* Track (normal scroll area background) */
 main > div::-webkit-scrollbar-track {
-    background: #2c2c2c;
+    background: var(--color-background);
+    box-shadow: inset 0 0 0 9999px #2c2c2c;
 }
 
+/* Thumb */
 main > div::-webkit-scrollbar-thumb {
     background: #2a2930;
     border-radius: 8px;
-    border: 2px solid #2c2c2c;
+    border: 2px solid var(--color-background);
 }
 
 main > div::-webkit-scrollbar-thumb:hover {
     background: #3a3942;
 }
+
 .spinner {
     display: flex;
     align-items: center;
