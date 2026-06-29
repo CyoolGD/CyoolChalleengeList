@@ -4,15 +4,15 @@
     "author": "Zeanaye",
     "creators": ["Zeanaye"],
     "verifier": "Zeanaye",
-    "verification": "https://youtu.be/wQlNbHwDvvU",
+    "verification": "https://www.youtube.com/watch?v=T2R13oikBe4",
     "percentToQualify": "100",
-    "password": "1.1",
+    "password": "1.2",
     "records": [
         {
             "user": "Twisted",
             "link": "https://medal.tv/games/geometry-dash/clips/n0DmXXVCNl0bpJgSE?invite=cr-MSx3MzEsNDcyMjQzNjk4",
             "percent": 100,
-            "hz": 240
+            "hz": 0
         },
         {
             "user": "N/A",
