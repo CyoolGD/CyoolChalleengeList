@@ -1,0 +1,24 @@
+{
+    "id": 143945572,
+    "name": "Cyool Hop",
+    "author": "AbsolutDasher",
+    "creators": ["AbsolutDasher"],
+    "verifier": "AbsolutDasher",
+    "verification": "https://youtu.be/F8U_u2p8vSs",
+    "percentToQualify": "100",
+    "password": "1.2",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 0,
+            "hz": 0
+        },
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 0,
+            "hz": 0
+        }
+    ]
+}
