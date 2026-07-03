@@ -1,0 +1,24 @@
+{
+    "id": 143890856,
+    "name": "Infinite Cyool",
+    "author": "AbsolutDasher",
+    "creators": ["AbsolutDasher"],
+    "verifier": "AbsolutDasher",
+    "verification": "https://youtu.be/o6YAPF_wffc",
+    "percentToQualify": "100",
+    "password": "1.2",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 0,
+            "hz": 0
+        },
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 0,
+            "hz": 0
+        }
+    ]
+}
