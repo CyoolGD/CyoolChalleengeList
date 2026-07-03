@@ -1,0 +1,24 @@
+{
+    "id": 143895444,
+    "name": "World Hardest Cyool",
+    "author": "Crabguy1324",
+    "creators": ["Crabguy1324"],
+    "verifier": "AustinMiller",
+    "verification": "https://youtu.be/me5ipHYpKJQ?is=E_kxcgtgXnTeLhPg",
+    "percentToQualify": "100",
+    "password": "1.2",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 0,
+            "hz": 0
+        },
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 0,
+            "hz": 0
+        }
+    ]
+}
