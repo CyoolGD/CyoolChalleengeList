@@ -1,0 +1,24 @@
+{
+    "id": 143880441,
+    "name": "Cyool Never Clear X",
+    "author": "Crabguy1324",
+    "creators": ["Crabguy1324"],
+    "verifier": "Crabguy1324",
+    "verification": "https://youtu.be/oEafmO7m28s?is=JYPRNNeK-LLhf0U8",
+    "percentToQualify": "100",
+    "password": "1.2",
+    "records": [
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 0,
+            "hz": 0
+        },
+        {
+            "user": "N/A",
+            "link": "https://youtube/example",
+            "percent": 0,
+            "hz": 0
+        }
+    ]
+}
